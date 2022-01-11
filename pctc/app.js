@@ -1,9 +1,3 @@
-let alertString;
-alertString = addString("Webcamp");
+let promptStr = prompt('好きな文字を入力。')
 
-alert(alertString);
-
-function addString(strA) {
-  let addStr = "Hello" + strA;
-  return addStr;
-}
+alert(promptStr);
